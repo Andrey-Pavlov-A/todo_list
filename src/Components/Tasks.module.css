@@ -1,0 +1,84 @@
+* {
+	margin: 0px;
+	padding:0px;
+}
+
+.notActiveEl{
+	text-decoration: line-through;
+}
+
+.TaskDiv{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin: auto;
+
+
+}
+
+li .liStyle{
+	margin: 0;
+	background-color: green
+}
+
+.taskContainer{
+	width:90%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	background-color: white;
+	margin: 5px;
+	padding: 2px;
+	padding-left:4px;
+	border:1px solid #d1cdcd;
+	border-radius: 3px;
+	height:30px;
+	font-size: 18px;
+	transition: all 0.2s ease-in-out;
+	box-shadow: 5px 4px 5px -1px rgba(0,0,0,0.51);
+}
+
+.taskBlock{
+	margin-top: 20px
+}
+
+.buttonContainer{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	width:30%;
+}
+
+.notActiveTask{
+	opacity: 0.4;
+	width:84%;
+	height:27px;
+	transition: all 0.2s ease-in-out 
+}
+
+.button1{
+	margin-left: 5px;
+	min-width:25px;
+	width: 40%;
+	margin-top: 0;
+	padding-top: 0;
+	background-color: #83fc83;
+	border: 1px solid black;
+	outline: none;
+}
+.button2{
+	margin-left: 5px;
+	min-width:25px;
+	width: 40%;
+	margin-top: 0;
+	padding-top: 0;
+	background-color: #f56464;
+	border: 1px solid black;
+	outline: none;
+}
+
+.deleted{
+	width:10%;
+	transition: all 0.2s ease-in-out  
+}
